@@ -11,5 +11,6 @@ dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4
 <h3>Reboot</h3>
 <pre><code>sudo reboot now</pre></code>
 
-<h3>Run this to run compile the app</h3>
+<h3>Run this to run compile the program</h3>
+<h5>You can change the name or main.cpp and app to whatever you would like it to be.</h5>
 <pre><code>g++ main.cpp lib/arduino_gpio.cpp lib/software_pwm.cpp lib/hardware_pwm.cpp -o app -lgpiod</pre></code>
